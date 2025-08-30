@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>João - Especialista em Marketing</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+  <!-- Cabeçalho -->
+  <header class="bg-blue-600 text-white shadow-md sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto p-6 flex justify-between items-center">
+      <h1 class="text-2xl font-bold flex items-center gap-2">
+        <i data-lucide="rocket" class="w-6 h-6"></i> João Marketing
+      </h1>
+      <nav class="space-x-6">
+        <a href="#sobre" class="hover:text-yellow-300">Sobre Mim</a>
+        <a href="#fiverr" class="hover:text-yellow-300">O Fiverr</a>
+        <a href="#marketing" class="hover:text-yellow-300">Marketing</a>
+        <a href="#depoimentos" class="hover:text-yellow-300">Depoimentos</a>
+        <a href="#contato" class="hover:text-yellow-300">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative bg-gradient-to-r from-blue-600 to-blue-400 text-white py-20 text-center overflow-hidden">
+    <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d" alt="Marketing" class="absolute inset-0 w-full h-full object-cover opacity-20">
+    <div class="relative z-10">
+      <h2 class="text-4xl font-bold mb-4">Bem-vindo ao site do João</h2>
+      <p class="text-lg max-w-2xl mx-auto">Sou especialista em marketing digital e ajudo pessoas e empresas a conquistarem resultados reais no mundo online.</p>
+    </div>
+  </section>
+
+  <!-- Sobre Mim -->
+  <section id="sobre" class="max-w-6xl mx-auto py-16 px-6 grid md:grid-cols-2 gap-10 items-center">
+    <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e" alt="João especialista em marketing" class="rounded-2xl shadow-lg">
+    <div>
+      <h3 class="text-3xl font-bold mb-6 text-blue-600 flex items-center gap-2">
+        <i data-lucide="user" class="w-6 h-6"></i> Sobre João
+      </h3>
+      <p class="text-lg leading-relaxed">Meu nome é João e sou apaixonado por marketing digital. Trabalho ajudando empresas e profissionais a crescerem no ambiente online, criando estratégias personalizadas que realmente funcionam. Minha missão é transformar ideias em resultados concretos, usando as melhores práticas de marketing.</p>
+    </div>
+  </section>
+
+  <!-- O Fiverr -->
+  <section id="fiverr" class="bg-white py-16 px-6">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h3 class="text-3xl font-bold mb-6 text-blue-600 flex items-center gap-2">
+          <i data-lucide="globe" class="w-6 h-6"></i> O que é o Fiverr?
+        </h3>
+        <p class="text-lg leading-relaxed mb-4">O Fiverr é uma plataforma onde freelancers oferecem serviços digitais em diversas áreas. Eu, João, ajudo pessoas a entenderem como usar essa ferramenta para divulgar seus serviços e conquistar clientes de maneira inteligente.</p>
+        <p class="text-lg leading-relaxed">Explico passo a passo como montar um perfil atrativo, aplicar técnicas de marketing e se destacar em um mercado competitivo.</p>
+      </div>
+      <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" alt="Fiverr" class="rounded-2xl shadow-lg">
+    </div>
+  </section>
+
+  <!-- Marketing -->
+  <section id="marketing" class="max-w-6xl mx-auto py-16 px-6">
+    <h3 class="text-3xl font-bold mb-6 text-blue-600 flex items-center gap-2">
+      <i data-lucide="trending-up" class="w-6 h-6"></i> A visão de João sobre Marketing
+    </h3>
+    <p class="text-lg leading-relaxed mb-8">Para mim, marketing é muito mais do que vender: é criar conexões reais. O segredo está em entender o público, oferecer valor e construir relacionamentos de confiança.</p>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="bg-white p-6 rounded-2xl shadow-md flex items-start gap-4">
+        <i data-lucide="bar-chart" class="w-6 h-6 text-blue-600"></i>
+        <p>📊 Pesquisa de mercado personalizada</p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow-md flex items-start gap-4">
+        <i data-lucide="target" class="w-6 h-6 text-blue-600"></i>
+        <p>🎯 Definição de público-alvo assertiva</p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow-md flex items-start gap-4">
+        <i data-lucide="smartphone" class="w-6 h-6 text-blue-600"></i>
+        <p>📱 Estratégias digitais modernas</p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow-md flex items-start gap-4">
+        <i data-lucide="pen-tool" class="w-6 h-6 text-blue-600"></i>
+        <p>💡 Criação de conteúdo atrativo</p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow-md flex items-start gap-4">
+        <i data-lucide="line-chart" class="w-6 h-6 text-blue-600"></i>
+        <p>📈 Análise de resultados com foco em crescimento</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Depoimentos -->
+  <section id="depoimentos" class="bg-gray-50 py-16 px-6">
+    <div class="max-w-6xl mx-auto text-center">
+      <h3 class="text-3xl font-bold mb-12 text-blue-600 flex justify-center items-center gap-2">
+        <i data-lucide="message-circle" class="w-6 h-6"></i> Depoimentos de Clientes
+      </h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-2xl shadow-md">
+          <p class="italic mb-4">“O João me ajudou a entender como melhorar meu perfil no Fiverr e já conquistei novos clientes.”</p>
+          <h4 class="font-bold text-blue-600">Ana Souza</h4>
+          <span class="text-gray-500 text-sm">Empreendedora</span>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow-md">
+          <p class="italic mb-4">“As estratégias de marketing que o João me passou aumentaram minhas vendas em pouco tempo.”</p>
+          <h4 class="font-bold text-blue-600">Carlos Oliveira</h4>
+          <span class="text-gray-500 text-sm">Freelancer</span>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow-md">
+          <p class="italic mb-4">“Ótima explicação sobre o funcionamento do site e dicas de marketing. Recomendo muito o João!”</p>
+          <h4 class="font-bold text-blue-600">Mariana Lima</h4>
+          <span class="text-gray-500 text-sm">Designer Gráfico</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="bg-blue-600 text-white py-16 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <h3 class="text-3xl font-bold mb-6 flex justify-center items-center gap-2">
+        <i data-lucide="mail" class="w-6 h-6"></i> Entre em Contato com João
+      </h3>
+      <p class="mb-6">Se você deseja aprender mais sobre marketing ou quer uma explicação detalhada sobre como usar o Fiverr, fale comigo!</p>
+      <a href="mailto:joao@email.com" class="bg-yellow-400 text-blue-800 font-bold py-3 px-6 rounded-lg shadow-md hover:bg-yellow-300 inline-flex items-center gap-2">
+        <i data-lucide="send" class="w-5 h-5"></i> Me envie um e-mail
+      </a>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-gray-900 text-gray-400 text-center py-6">
+    <p>© 2025 João Marketing. Todos os direitos reservados.</p>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
